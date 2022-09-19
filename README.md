@@ -34,7 +34,7 @@ LetsDefend SOC165 - Possible SQL Injection Payload Detected EventID: 115 Writeup
 
 <h2> Let's resolve this case </h2>
 
-- I love the playbook for LetsDefend because it helps build a understand of the landscape and what occured. Essentially it is a step by step for a security analyst to go through.
+- I love the playbook for LetsDefend because it helps build a better understanding of the landscape and what occured. Essentially it is a step by step for a security analyst to go through.
 
 ![LetsDefendAlert4Mal](https://user-images.githubusercontent.com/98111674/190937040-d057022a-53f5-46c1-9b91-f7fe38bb2a82.png)
 - I would say malicious. A noble user wouldn't use URL encoding nor would they try to commit a SQLi against a database.
@@ -61,7 +61,7 @@ LetsDefend SOC165 - Possible SQL Injection Payload Detected EventID: 115 Writeup
 - Finally we close the alert as a true positive again with a quick summary. 
 
 ![LetsDefendAlert12Result](https://user-images.githubusercontent.com/98111674/190937384-b0d9d833-5bb8-4a8a-899c-1b98a5ab369e.png)
-- We see our results. Woohoo! All correct! No one is perfect all the time however, and if you missed anything you can always re-investigate the case. This is why this platform is great for learning! 
+- We see our results. Woohoo! All correct! No one is perfect all the time however, and if you missed anything you can always re-investigate the case. This is why this platform is great for learning! Practice makes perfect!
 
 
 
