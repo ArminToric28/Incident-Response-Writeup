@@ -6,7 +6,7 @@ LetsDefend SOC165 - Possible SQL Injection Payload Detected EventID: 115 Writeup
 
 <h2>Alert Triggered!</h2>
 
-- Here is the case management page where we as Analysts see alerts trigger and respond. In this case we had an incident occur involving a Possible SQL Injection Payload Detected
+- Here is the case management page in this SOC where, we as Analysts, see alerts get triggered and respond. In this case we had an incident occur involving a Possible SQL Injection Payload Detected
 
 ![LetsDefendAlert](https://user-images.githubusercontent.com/98111674/190935338-d1c7bb2f-a693-42fd-94c0-8194f447eac8.png)
 
