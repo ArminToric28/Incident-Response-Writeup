@@ -19,7 +19,7 @@ LetsDefend SOC165 - Possible SQL Injection Payload Detected EventID: 115 Writeup
 - Welp.. that is it. It's malicious and we are done? 
 - No. Our job here is to triage and gather more information to understand the bigger picture. I will usually double check and triple check to be sure. Other sources we can use include Cisco Talos Reputation Lookup and AbuseIPDB to verify. 
 ![LetsDefendciscotalos](https://user-images.githubusercontent.com/98111674/190936065-418693af-6a4e-489b-9e1c-cc43162889ae.png)
-![LetsDefendabuseipdb](https://user-images.githubusercontent.com/98111674/190936069-447768fe-d0c6-4232-8c99-2394ee441f66.png)
+![LetsDefendabuseipdb](https://user-images.githubusercontent.com/98111674/191084891-7ef07fcd-3e8d-4ad9-8c62-a17c74bc9d13.png)
 - So our source IP address is probably malicious and trying to execute a malicious payload against our endpoint, WebServer1001. 
 - Let's dive further into the log management page to query for our malicious actor with the malicious IP address. 
 
