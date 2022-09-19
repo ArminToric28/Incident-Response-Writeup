@@ -24,7 +24,7 @@ LetsDefend SOC165 - Possible SQL Injection Payload Detected EventID: 115 Writeup
 - Let's dive further into the log management page to query for our malicious actor with the malicious IP address. 
 
 ![LetsDefendAlert3LogManagment](https://user-images.githubusercontent.com/98111674/190936277-e6e0bb2e-bcba-415c-a985-b24d7810e81f.png)
-- Here in the log management section of our SOC we can triage further and dive more into detail. I have located the Raw Log that gives us more information about the attacker. We can take note of this.
+- Here in the log management section of our SIEM we can triage further and dive more into detail. I have located the Raw Log that gives us more information about the attacker. We can take note of this.
 - Next we can examine the HTTP Request. Right away I can tell url encoding is involved with the HTTP request, so we can use our favourite url decoder. I will use cyberchef to decode the HTTP request URL.
 
 ![letsdefenedurldecode](https://user-images.githubusercontent.com/98111674/190936579-975afbe1-a922-4eb9-a69f-c3d6a7dc135b.png)
